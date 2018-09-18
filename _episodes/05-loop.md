@@ -113,6 +113,11 @@ possible to put the names into curly braces to clearly delimit the variable
 name: `$filename` is equivalent to `${filename}`, but is different from
 `${file}name`. You may find this notation in other people's programs.
 
+The name of the variable is also arbitrary. In the example above, the variable `filename` was used,
+whereas in the example below, `datafile` is used instead. It does not matter what 
+variable name is used, although it is good practice to use a meaningful name, relevant
+to the context.
+
 > ## Variables in Loops
 >
 > This exercise refers to the `data-shell/molecules` directory.
